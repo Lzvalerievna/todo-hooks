@@ -1,0 +1,66 @@
+{
+    "env": {
+        "browser": true,
+        "jest": true
+    },
+    "extends": [
+        "airbnb",
+        "airbnb/hooks",
+        "eslint-config-prettier",
+        "prettier"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "parser": "babel-eslint",
+    "rules": {
+        "curly": ["error"],
+        "max-depth": ["warn", 4],
+        "id-length": ["warn", { "exceptions": ["i", "j"], "min": 2 }],
+        "no-lonely-if": ["error"],
+        "no-plusplus": "off",
+        "no-restricted-syntax": "off",
+        "class-methods-use-this": "off",
+        "jsx-a11y/href-no-hash": ["off"],
+        "jsx-a11y/anchor-is-valid": ["off"],
+        "jsx-a11y/label-has-associated-control": [ "error", {
+          "assert": "either"
+        }],
+        "react/state-in-constructor": ["off"],
+        "react/jsx-props-no-spreading": ["off"],
+        "react/static-property-placement": ["off"],
+        "react/jsx-filename-extension": "off",
+        "jsx-a11y / label-has-for": "off",
+        "react/prefer-stateless-function": "off",
+        "prefer-template": "off",
+        "react/no-unused-state": "off",
+        "no-const-assign": "off",
+        "no-unused-vars": "off",
+        "import/no-named-as-default": "off",
+        "consistent-return": "off",
+        "prefer-const": "off",
+        "no-unused-expressions": "off",
+        "import/no-extraneous-dependencies": "off",
+        "arrow-body-style": "off",
+        "no-shadow": "off",
+        "no-param-reassign": "off",
+        "react/no-array-index-key": "off",
+        "no-sequences": "off",
+        "react/forbid-prop-types": "off",
+        "no-else-return": "off",
+        "no-console": "off"
+    },
+    "settings": {
+        "react": {
+          "pragma": "React",
+          "version": "detect"
+        }
+      }
+}
