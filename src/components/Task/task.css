@@ -163,6 +163,7 @@ button {
     font-size: 18px;
     padding-bottom: 2px;
     overflow: hidden;
+    margin-left: -2px;
 }
 .taskCompleted {
     width: 127px;
@@ -176,7 +177,6 @@ button {
     width: 178px;
     text-align: center;
     margin-right: -10px;
-    margin-left: -2px;
 }
 
 
